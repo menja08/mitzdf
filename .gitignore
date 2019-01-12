@@ -1,3 +1,5 @@
-.css.map
+css/*.css.map
+css/*.sass*
 .idea
-.css
+*.css
+*~

@@ -1,0 +1,70 @@
+body {
+    // background: lightyellow;
+    background-image: url('../images/images11012019_1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    //background-color: lightblue;
+
+}
+
+nav {
+    display: flex;
+    background: #34393F;
+    width: 100%;
+
+    section {
+	margin: 2%;
+    }
+
+    #logo {
+	img {
+	    width: 40%;
+	}
+	//border: 1px solid blue;
+	margin-top: 1%;
+	text-align: center;
+	width: 15%;
+    }
+}
+
+#box {
+
+    #imageSlider {
+	img {
+	    // max-width: 100%;
+	}
+    }
+
+    // arrow size
+    img {
+	width: 3%;
+    }
+    img:hover {
+	background-color: grey;
+    }
+
+    #left {
+	margin-top: 20%;
+	margin-left: -1%;
+    }
+    #right{
+	margin-right: 0;
+	margin-left: 98%;
+	// margin-top: 20%;
+    }
+
+    //fivedots
+    #fivedots {
+	display: flex;
+	margin-top: 15%;
+	margin-left: 35%;
+	margin-right: 40%;
+	//width: 20%;
+	//border: 1px solid blue;
+	font-size: 2em;
+
+	section {
+	    margin: auto;
+	}
+    }
+}
